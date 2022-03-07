@@ -5,7 +5,7 @@ import Script from 'next/script'
 
 export default function FirstPost() {
     return (
-        <Layout>
+        <Layout> {/* Layout Component */}
             <Head>
                 <title>First Post</title>
             </Head>
@@ -17,11 +17,10 @@ export default function FirstPost() {
             {/*    }*/}
             {/*/>*/}
             <h1>First Post</h1>
-            <h2>
-                <Link href="/">
-                    <a>Back to home</a>
-                </Link>
-            </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis enim quas tempora. Accusantium amet
+                assumenda consequuntur dicta ea eveniet fugiat incidunt minus nihil non numquam quas, sapiente sunt
+                veniam, voluptatibus!
+            </p>
         </Layout>
     )
 }
